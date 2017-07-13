@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.examples;
 
 /**
  * Created by Britenet on 2017-07-13.
