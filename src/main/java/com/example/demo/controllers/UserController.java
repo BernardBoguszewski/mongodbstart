@@ -2,19 +2,16 @@ package com.example.demo.controllers;
 
 import com.example.demo.domain.User;
 import com.example.demo.dtos.UserDto;
-import com.example.demo.repositories.UserRepository;
 import com.example.demo.services.UserService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 /**
  * Created by Britenet on 2017-07-13.
  */
-@RestController("/user")
+@RestController
+@RequestMapping("/users")
 public class UserController {
 
     private UserService userService;

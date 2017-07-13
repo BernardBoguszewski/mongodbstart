@@ -20,6 +20,13 @@ public class Projekt {
     private StatusProjektu statusProjektu;
     private Notatka notatka;
 
+    public Projekt(String nazwa, String opis, LocalDate dataUtworzenia, LocalDate dataZamkniecia) {
+        this.nazwa = nazwa;
+        this.opis = opis;
+        this.dataUtworzenia = dataUtworzenia;
+        this.dataZamkniecia = dataZamkniecia;
+    }
+
     public Projekt(String nazwa, String opis, LocalDate dataUtworzenia, LocalDate dataZamkniecia, StatusProjektu statusProjektu, Notatka notatka) {
         this.nazwa = nazwa;
         this.opis = opis;
